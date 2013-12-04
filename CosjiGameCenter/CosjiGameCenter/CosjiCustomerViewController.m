@@ -9,11 +9,16 @@
 #import "CosjiCustomerViewController.h"
 #import "CosjiJingPinViewController.h"
 #import "CosjiSearchViewController.h"
+#import "WordPressBaseApi.h"
 #import "WPXMLRPCClient.h"
+#import "DDLog.h"
+#import "DDTTYLogger.h"
+#import "DDASLLogger.h"
 
 @interface CosjiCustomerViewController ()
 
 @end
+int ddLogLevel = LOG_LEVEL_INFO;
 @implementation CosjiCustomerViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -38,6 +43,7 @@
     UIButton *editBtn=[UIButton buttonWithType:UIButtonTypeCustom];
     editBtn.frame=CGRectMake(100, 30, 54, 54);
     [editBtn setBackgroundImage:[UIImage imageNamed:@"编辑个人资料"] forState:UIControlStateNormal];
+    [editBtn addTarget:self action:@selector(getDemoUserInfo) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:editBtn];
     UIButton *loveBtn=[UIButton buttonWithType:UIButtonTypeCustom];
     loveBtn.frame=CGRectMake(160, 30, 54, 54);
@@ -202,11 +208,22 @@
 }
 -(void)getDemoUserInfo
 {
-    
+    WPXMLRPCClient *xmlRPCClient=[WPXMLRPCClient clientWithXMLRPCEndpoint:[NSURL URLWithString:@"http://wordpress.local"]];
+    NSLog(@"OK");
+    [xmlRPCClient callMethod:@"wp.getUsersBlogs" parameters:[NSArray arrayWithObjects:@"missing",@"missing", nil] success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        DDLogInfo(@"Logged in to WordPress.com as");
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+            if ([error.domain isEqualToString:@"XMLRPC"] && error.code == 403) {
+                NSLog(@"error 403");
+            }
+            DDLogError(@"Error authenticating with WordPress.com:");
+        }
+     ];
 }
 -(BOOL)canContinueAcion
 {
-    if (childViewShow) {
+    if (childViewShow)
+    {
         [self showBackView:nil];
         return NO;
     }else

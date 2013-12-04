@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18027DA518444816006DBBC9 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18027DA418444816006DBBC9 /* GoogleOpenSource.framework */; };
+		18027DA71844483C006DBBC9 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18027DA61844483C006DBBC9 /* GooglePlus.framework */; };
 		18060D7C182788F20026028F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18060D7B182788F20026028F /* QuartzCore.framework */; };
 		180FADCD182777860037B2A8 /* 首页-焦点图-动态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180FADCB182777860037B2A8 /* 首页-焦点图-动态@2x.png */; };
 		180FADCE182777860037B2A8 /* 首页-焦点图-默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 180FADCC182777860037B2A8 /* 首页-焦点图-默认@2x.png */; };
@@ -25,6 +27,13 @@
 		182522D1181F4FC700C68F33 /* CosjiJingPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182522CF181F4FC700C68F33 /* CosjiJingPinViewController.m */; };
 		182522D6181F4FD900C68F33 /* CosjiNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182522D4181F4FD900C68F33 /* CosjiNewsViewController.m */; };
 		183C92FC183601E600613A34 /* CosjiGameDetailInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C92FB183601E600613A34 /* CosjiGameDetailInfo.m */; };
+		1850763B1842F73600DACE8B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1850763A1842F73600DACE8B /* Security.framework */; };
+		185076421842F77100DACE8B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185076401842F77100DACE8B /* CoreTelephony.framework */; };
+		185076431842F77100DACE8B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185076411842F77100DACE8B /* CoreText.framework */; };
+		185076451842F78100DACE8B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185076441842F78100DACE8B /* ImageIO.framework */; };
+		185076471842F79000DACE8B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185076461842F79000DACE8B /* SystemConfiguration.framework */; };
+		185076491842F7A000DACE8B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185076481842F7A000DACE8B /* MobileCoreServices.framework */; };
+		1850764B1842F7AF00DACE8B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1850764A1842F7AF00DACE8B /* MediaPlayer.framework */; };
 		185A5B17182768420031C518 /* CosjiMainItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A5B16182768420031C518 /* CosjiMainItemView.m */; };
 		18661912181F9E8F00432CC2 /* starSU.png in Resources */ = {isa = PBXBuildFile; fileRef = 1866190F181F9E8F00432CC2 /* starSU.png */; };
 		18661913181F9E8F00432CC2 /* starH.png in Resources */ = {isa = PBXBuildFile; fileRef = 18661910181F9E8F00432CC2 /* starH.png */; };
@@ -41,6 +50,10 @@
 		18661929181FAAD500432CC2 /* TW9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1866191F181FAAD500432CC2 /* TW9.png */; };
 		187145931829EF4A00B17374 /* 冒险解密.png in Resources */ = {isa = PBXBuildFile; fileRef = 187145911829EF4A00B17374 /* 冒险解密.png */; };
 		187145941829EF4A00B17374 /* 动作格斗.png in Resources */ = {isa = PBXBuildFile; fileRef = 187145921829EF4A00B17374 /* 动作格斗.png */; };
+		1877237F18459CCC00230465 /* 最新游戏选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1877237B18459CCC00230465 /* 最新游戏选中@2x.png */; };
+		1877238018459CCC00230465 /* 最新游戏默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1877237C18459CCC00230465 /* 最新游戏默认@2x.png */; };
+		1877238118459CCC00230465 /* 热门游戏选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1877237D18459CCC00230465 /* 热门游戏选中@2x.png */; };
+		1877238218459CCC00230465 /* 热门游戏默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1877237E18459CCC00230465 /* 热门游戏默认@2x.png */; };
 		187D9FFB182B96F0004E645C /* TabBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187D9FFA182B96F0004E645C /* TabBarBackground@2x.png */; };
 		187EF2B21828EEBA004228F0 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187EF2B11828EEBA004228F0 /* iCarousel.m */; };
 		187EF2B81828F215004228F0 /* TOP1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 187EF2B41828F215004228F0 /* TOP1.jpg */; };
@@ -109,6 +122,7 @@
 		189EA40D1832056A00594A1B /* CosjiGameListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EA40B1832056A00594A1B /* CosjiGameListViewController.m */; };
 		18A3C7DC183DDBC3000D12CE /* CosjiGameListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3C7DB183DDBC3000D12CE /* CosjiGameListItem.m */; };
 		18C2BE1B18306FC90077A82B /* CosjiCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2BE1918306FC90077A82B /* CosjiCustomerViewController.m */; };
+		18D6A0601843450E00B38A49 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 185076C21842FA9500DACE8B /* libPods.a */; };
 		18E47FD4183083E90046C5CD /* 个人收藏@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E47FD3183083E90046C5CD /* 个人收藏@2x.png */; };
 		18E83F98182C82330009C1A6 /* 线条块.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E83F97182C82330009C1A6 /* 线条块.png */; };
 		18EB44561830A313006EF1F5 /* CosjiSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB44541830A313006EF1F5 /* CosjiSearchViewController.m */; };
@@ -121,7 +135,187 @@
 		18FEFADA181F579500BE1794 /* DEAD_TRIGGER_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FEFAD4181F579500BE1794 /* DEAD_TRIGGER_icon.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		185076C11842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8F123A0863B4B8F92167CC6;
+			remoteInfo = Pods;
+		};
+		185076C31842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2115C373843049C194DB1FD9;
+			remoteInfo = "Pods-AFNetworking";
+		};
+		185076C51842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7258446EDE0B448FABF4758C;
+			remoteInfo = "Pods-CTidy";
+		};
+		185076C71842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5B1750213CE14FAAB9B3D365;
+			remoteInfo = "Pods-CocoaLumberjack";
+		};
+		185076C91842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F52AE8A2A254B3A9082BDEC;
+			remoteInfo = "Pods-DTCoreText";
+		};
+		185076CB1842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1821863BF9054822A820C588;
+			remoteInfo = "Pods-DTFoundation";
+		};
+		185076CD1842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9828159074114B2A9ECF8828;
+			remoteInfo = "Pods-JSONKit";
+		};
+		185076CF1842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E9DF18CB0893438DA5620116;
+			remoteInfo = "Pods-MGImageUtilities";
+		};
+		185076D11842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0F719738C0C4F34ABB5967B;
+			remoteInfo = "Pods-Mixpanel";
+		};
+		185076D31842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C27BA833992D486C8104D6C6;
+			remoteInfo = "Pods-NSLogger";
+		};
+		185076D51842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D50D3977BFC14B5586FD638F;
+			remoteInfo = "Pods-NSLogger-CocoaLumberjack-connector";
+		};
+		185076D71842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 091CF261244A45EC85CCF9B6;
+			remoteInfo = "Pods-NSObject-SafeExpectations";
+		};
+		185076D91842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B87DDE2225584A0693788872;
+			remoteInfo = "Pods-NSURL+IDN";
+		};
+		185076DB1842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4D7CC7C01ACB4A689933C83D;
+			remoteInfo = "Pods-Quantcast-Measure";
+		};
+		185076DD1842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 482692931BEA495996684D58;
+			remoteInfo = "Pods-Reachability";
+		};
+		185076DF1842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A721CA7DCEB4C9E9F41F38A;
+			remoteInfo = "Pods-SFHFKeychainUtils";
+		};
+		185076E11842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5793C0C40764EEAAAFA6315;
+			remoteInfo = "Pods-SSKeychain";
+		};
+		185076E31842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0C0D93FB722B40E8AF3AF6F8;
+			remoteInfo = "Pods-SVProgressHUD";
+		};
+		185076E51842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98935C60046F4E6FAF99EACE;
+			remoteInfo = "Pods-UIDeviceIdentifier";
+		};
+		185076E71842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 91CB402DDBB048A79427242A;
+			remoteInfo = "Pods-WordPressApi";
+		};
+		185076E91842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 634601A447614E23AACAF0AB;
+			remoteInfo = "Pods-WordPressTest";
+		};
+		185076EB1842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 88259AB7F71A4612A9D3ACD7;
+			remoteInfo = "Pods-WordPressTest-OHHTTPStubs";
+		};
+		185076ED1842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 14D407B3F6A3406EA7382CAB;
+			remoteInfo = "Pods-google-plus-ios-sdk";
+		};
+		185076EF1842FA9500DACE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0CE796252A644956B8A7CAD5;
+			remoteInfo = "Pods-wpxmlrpc";
+		};
+		18D6A0911843476700B38A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 11C55297C05B4F3A864D2A61;
+			remoteInfo = Pods;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		18027DA418444816006DBBC9 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		18027DA61844483C006DBBC9 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
 		18060D7B182788F20026028F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		180FADCB182777860037B2A8 /* 首页-焦点图-动态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-焦点图-动态@2x.png"; sourceTree = "<group>"; };
 		180FADCC182777860037B2A8 /* 首页-焦点图-默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-焦点图-默认@2x.png"; sourceTree = "<group>"; };
@@ -149,6 +343,16 @@
 		182522D4181F4FD900C68F33 /* CosjiNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CosjiNewsViewController.m; sourceTree = "<group>"; };
 		183C92FA183601E600613A34 /* CosjiGameDetailInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CosjiGameDetailInfo.h; sourceTree = "<group>"; };
 		183C92FB183601E600613A34 /* CosjiGameDetailInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CosjiGameDetailInfo.m; sourceTree = "<group>"; };
+		1850763A1842F73600DACE8B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1850763C1842F74900DACE8B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1850763E1842F75300DACE8B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		185076401842F77100DACE8B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		185076411842F77100DACE8B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		185076441842F78100DACE8B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		185076461842F79000DACE8B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		185076481842F7A000DACE8B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1850764A1842F7AF00DACE8B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		185076A61842FA9400DACE8B /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = "../../../workspace/WordPress-iOS-develop/Pods/Pods.xcodeproj"; sourceTree = "<group>"; };
 		185A5B15182768420031C518 /* CosjiMainItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CosjiMainItemView.h; sourceTree = "<group>"; };
 		185A5B16182768420031C518 /* CosjiMainItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CosjiMainItemView.m; sourceTree = "<group>"; };
 		1866190F181F9E8F00432CC2 /* starSU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starSU.png; sourceTree = "<group>"; };
@@ -166,6 +370,10 @@
 		1866191F181FAAD500432CC2 /* TW9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TW9.png; sourceTree = "<group>"; };
 		187145911829EF4A00B17374 /* 冒险解密.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "冒险解密.png"; sourceTree = "<group>"; };
 		187145921829EF4A00B17374 /* 动作格斗.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "动作格斗.png"; sourceTree = "<group>"; };
+		1877237B18459CCC00230465 /* 最新游戏选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "最新游戏选中@2x.png"; sourceTree = "<group>"; };
+		1877237C18459CCC00230465 /* 最新游戏默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "最新游戏默认@2x.png"; sourceTree = "<group>"; };
+		1877237D18459CCC00230465 /* 热门游戏选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "热门游戏选中@2x.png"; sourceTree = "<group>"; };
+		1877237E18459CCC00230465 /* 热门游戏默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "热门游戏默认@2x.png"; sourceTree = "<group>"; };
 		187D9FFA182B96F0004E645C /* TabBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarBackground@2x.png"; sourceTree = "<group>"; };
 		187EF2B01828EEBA004228F0 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		187EF2B11828EEBA004228F0 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
@@ -257,10 +465,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18060D7C182788F20026028F /* QuartzCore.framework in Frameworks */,
-				182522A9181F4E7A00C68F33 /* UIKit.framework in Frameworks */,
+				18D6A0601843450E00B38A49 /* libPods.a in Frameworks */,
+				1850764B1842F7AF00DACE8B /* MediaPlayer.framework in Frameworks */,
+				185076491842F7A000DACE8B /* MobileCoreServices.framework in Frameworks */,
+				185076471842F79000DACE8B /* SystemConfiguration.framework in Frameworks */,
+				185076451842F78100DACE8B /* ImageIO.framework in Frameworks */,
 				182522AB181F4E7A00C68F33 /* Foundation.framework in Frameworks */,
+				18027DA71844483C006DBBC9 /* GooglePlus.framework in Frameworks */,
+				185076421842F77100DACE8B /* CoreTelephony.framework in Frameworks */,
+				185076431842F77100DACE8B /* CoreText.framework in Frameworks */,
 				182522AD181F4E7A00C68F33 /* CoreGraphics.framework in Frameworks */,
+				1850763B1842F73600DACE8B /* Security.framework in Frameworks */,
+				18060D7C182788F20026028F /* QuartzCore.framework in Frameworks */,
+				18027DA518444816006DBBC9 /* GoogleOpenSource.framework in Frameworks */,
+				182522A9181F4E7A00C68F33 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +488,7 @@
 		181F69FE182B84B700930BE7 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				1877237A18459CCC00230465 /* 游戏中心 切片 11-27 */,
 				181F69FF182B84CD00930BE7 /* 游戏中心 切片  11-7 */,
 			);
 			name = Resource;
@@ -359,8 +578,20 @@
 		182522A7181F4E7A00C68F33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				185076A61842FA9400DACE8B /* Pods.xcodeproj */,
+				1850764A1842F7AF00DACE8B /* MediaPlayer.framework */,
+				185076481842F7A000DACE8B /* MobileCoreServices.framework */,
+				185076461842F79000DACE8B /* SystemConfiguration.framework */,
+				185076441842F78100DACE8B /* ImageIO.framework */,
+				185076401842F77100DACE8B /* CoreTelephony.framework */,
+				185076411842F77100DACE8B /* CoreText.framework */,
+				1850763E1842F75300DACE8B /* CFNetwork.framework */,
+				18027DA418444816006DBBC9 /* GoogleOpenSource.framework */,
+				1850763C1842F74900DACE8B /* AdSupport.framework */,
+				1850763A1842F73600DACE8B /* Security.framework */,
 				18060D7B182788F20026028F /* QuartzCore.framework */,
 				182522A8181F4E7A00C68F33 /* UIKit.framework */,
+				18027DA61844483C006DBBC9 /* GooglePlus.framework */,
 				182522AA181F4E7A00C68F33 /* Foundation.framework */,
 				182522AC181F4E7A00C68F33 /* CoreGraphics.framework */,
 			);
@@ -370,6 +601,7 @@
 		182522AE181F4E7A00C68F33 /* CosjiGameCenter */ = {
 			isa = PBXGroup;
 			children = (
+				18E9D88D1844764400F5B62D /* other Class */,
 				18EE4BE01835B70600CB7819 /* 游戏详情 */,
 				189EA4091831FDED00594A1B /* 游戏列表 */,
 				18EB44521830A2EF006EF1F5 /* 搜索 */,
@@ -400,6 +632,37 @@
 				182522BE181F4E7A00C68F33 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185076A71842FA9400DACE8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185076C21842FA9500DACE8B /* libPods.a */,
+				185076C41842FA9500DACE8B /* libPods-AFNetworking.a */,
+				185076C61842FA9500DACE8B /* libPods-CTidy.a */,
+				185076C81842FA9500DACE8B /* libPods-CocoaLumberjack.a */,
+				185076CA1842FA9500DACE8B /* libPods-DTCoreText.a */,
+				185076CC1842FA9500DACE8B /* libPods-DTFoundation.a */,
+				185076CE1842FA9500DACE8B /* libPods-JSONKit.a */,
+				185076D01842FA9500DACE8B /* libPods-MGImageUtilities.a */,
+				185076D21842FA9500DACE8B /* libPods-Mixpanel.a */,
+				185076D41842FA9500DACE8B /* libPods-NSLogger.a */,
+				185076D61842FA9500DACE8B /* libPods-NSLogger-CocoaLumberjack-connector.a */,
+				185076D81842FA9500DACE8B /* libPods-NSObject-SafeExpectations.a */,
+				185076DA1842FA9500DACE8B /* libPods-NSURL+IDN.a */,
+				185076DC1842FA9500DACE8B /* libPods-Quantcast-Measure.a */,
+				185076DE1842FA9500DACE8B /* libPods-Reachability.a */,
+				185076E01842FA9500DACE8B /* libPods-SFHFKeychainUtils.a */,
+				185076E21842FA9500DACE8B /* libPods-SSKeychain.a */,
+				185076E41842FA9500DACE8B /* libPods-SVProgressHUD.a */,
+				185076E61842FA9500DACE8B /* libPods-UIDeviceIdentifier.a */,
+				185076E81842FA9500DACE8B /* libPods-WordPressApi.a */,
+				185076EA1842FA9500DACE8B /* libPods-WordPressTest.a */,
+				185076EC1842FA9500DACE8B /* libPods-WordPressTest-OHHTTPStubs.a */,
+				185076EE1842FA9500DACE8B /* libPods-google-plus-ios-sdk.a */,
+				185076F01842FA9500DACE8B /* libPods-wpxmlrpc.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		185A5B14182768270031C518 /* 最新最热 */ = {
@@ -437,6 +700,17 @@
 				187145921829EF4A00B17374 /* 动作格斗.png */,
 			);
 			path = "分类排行";
+			sourceTree = "<group>";
+		};
+		1877237A18459CCC00230465 /* 游戏中心 切片 11-27 */ = {
+			isa = PBXGroup;
+			children = (
+				1877237B18459CCC00230465 /* 最新游戏选中@2x.png */,
+				1877237C18459CCC00230465 /* 最新游戏默认@2x.png */,
+				1877237D18459CCC00230465 /* 热门游戏选中@2x.png */,
+				1877237E18459CCC00230465 /* 热门游戏默认@2x.png */,
+			);
+			path = "游戏中心 切片 11-27";
 			sourceTree = "<group>";
 		};
 		187EF2AF1828EEBA004228F0 /* iCarousel */ = {
@@ -503,6 +777,13 @@
 			name = "个人中心";
 			sourceTree = "<group>";
 		};
+		18E9D88D1844764400F5B62D /* other Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "other Class";
+			sourceTree = "<group>";
+		};
 		18EB44521830A2EF006EF1F5 /* 搜索 */ = {
 			isa = PBXGroup;
 			children = (
@@ -567,6 +848,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				18D6A0921843476700B38A49 /* PBXTargetDependency */,
 			);
 			name = CosjiGameCenter;
 			productName = CosjiGameCenter;
@@ -593,12 +875,189 @@
 			mainGroup = 1825229C181F4E7A00C68F33;
 			productRefGroup = 182522A6181F4E7A00C68F33 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 185076A71842FA9400DACE8B /* Products */;
+					ProjectRef = 185076A61842FA9400DACE8B /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				182522A4181F4E7A00C68F33 /* CosjiGameCenter */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		185076C21842FA9500DACE8B /* libPods.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPods.a;
+			remoteRef = 185076C11842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076C41842FA9500DACE8B /* libPods-AFNetworking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-AFNetworking.a";
+			remoteRef = 185076C31842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076C61842FA9500DACE8B /* libPods-CTidy.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-CTidy.a";
+			remoteRef = 185076C51842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076C81842FA9500DACE8B /* libPods-CocoaLumberjack.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-CocoaLumberjack.a";
+			remoteRef = 185076C71842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076CA1842FA9500DACE8B /* libPods-DTCoreText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-DTCoreText.a";
+			remoteRef = 185076C91842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076CC1842FA9500DACE8B /* libPods-DTFoundation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-DTFoundation.a";
+			remoteRef = 185076CB1842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076CE1842FA9500DACE8B /* libPods-JSONKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-JSONKit.a";
+			remoteRef = 185076CD1842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076D01842FA9500DACE8B /* libPods-MGImageUtilities.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-MGImageUtilities.a";
+			remoteRef = 185076CF1842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076D21842FA9500DACE8B /* libPods-Mixpanel.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-Mixpanel.a";
+			remoteRef = 185076D11842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076D41842FA9500DACE8B /* libPods-NSLogger.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-NSLogger.a";
+			remoteRef = 185076D31842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076D61842FA9500DACE8B /* libPods-NSLogger-CocoaLumberjack-connector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-NSLogger-CocoaLumberjack-connector.a";
+			remoteRef = 185076D51842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076D81842FA9500DACE8B /* libPods-NSObject-SafeExpectations.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-NSObject-SafeExpectations.a";
+			remoteRef = 185076D71842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076DA1842FA9500DACE8B /* libPods-NSURL+IDN.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-NSURL+IDN.a";
+			remoteRef = 185076D91842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076DC1842FA9500DACE8B /* libPods-Quantcast-Measure.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-Quantcast-Measure.a";
+			remoteRef = 185076DB1842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076DE1842FA9500DACE8B /* libPods-Reachability.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-Reachability.a";
+			remoteRef = 185076DD1842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076E01842FA9500DACE8B /* libPods-SFHFKeychainUtils.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-SFHFKeychainUtils.a";
+			remoteRef = 185076DF1842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076E21842FA9500DACE8B /* libPods-SSKeychain.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-SSKeychain.a";
+			remoteRef = 185076E11842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076E41842FA9500DACE8B /* libPods-SVProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-SVProgressHUD.a";
+			remoteRef = 185076E31842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076E61842FA9500DACE8B /* libPods-UIDeviceIdentifier.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-UIDeviceIdentifier.a";
+			remoteRef = 185076E51842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076E81842FA9500DACE8B /* libPods-WordPressApi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-WordPressApi.a";
+			remoteRef = 185076E71842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076EA1842FA9500DACE8B /* libPods-WordPressTest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-WordPressTest.a";
+			remoteRef = 185076E91842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076EC1842FA9500DACE8B /* libPods-WordPressTest-OHHTTPStubs.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-WordPressTest-OHHTTPStubs.a";
+			remoteRef = 185076EB1842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076EE1842FA9500DACE8B /* libPods-google-plus-ios-sdk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-google-plus-ios-sdk.a";
+			remoteRef = 185076ED1842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185076F01842FA9500DACE8B /* libPods-wpxmlrpc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-wpxmlrpc.a";
+			remoteRef = 185076EF1842FA9500DACE8B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		182522A3181F4E7A00C68F33 /* Resources */ = {
@@ -653,6 +1112,7 @@
 				1898B38118306C6A00DE3410 /* 收费@2x.png in Resources */,
 				18661913181F9E8F00432CC2 /* starH.png in Resources */,
 				18661914181F9E8F00432CC2 /* starS.png in Resources */,
+				1877238118459CCC00230465 /* 热门游戏选中@2x.png in Resources */,
 				18661920181FAAD500432CC2 /* TW1.png in Resources */,
 				1898B37118306C6A00DE3410 /* 个人中心  背景图@2x.png in Resources */,
 				18661921181FAAD500432CC2 /* TW10.png in Resources */,
@@ -666,6 +1126,7 @@
 				1898B38A18306C6A00DE3410 /* 按钮 右 按下@2x.png in Resources */,
 				1898B38918306C6A00DE3410 /* 按钮 中@2x.png in Resources */,
 				18661923181FAAD500432CC2 /* TW3.png in Resources */,
+				1877238018459CCC00230465 /* 最新游戏默认@2x.png in Resources */,
 				1898B39818306C6A00DE3410 /* new 彩色@2x.png in Resources */,
 				1898B39218306C6A00DE3410 /* 意见反馈@2x.png in Resources */,
 				1898B38618306C6A00DE3410 /* 搜索栏目  背景图@2x.png in Resources */,
@@ -676,12 +1137,14 @@
 				1898B39A18306C6A00DE3410 /* Number1@2x.png in Resources */,
 				18661927181FAAD500432CC2 /* TW7.png in Resources */,
 				1898B36A18306C6A00DE3410 /* 菜单 默认1@2x.png in Resources */,
+				1877237F18459CCC00230465 /* 最新游戏选中@2x.png in Resources */,
 				1898B38518306C6A00DE3410 /* 搜索框2@2x.png in Resources */,
 				1898B37818306C6A00DE3410 /* 奖牌 彩色@2x.png in Resources */,
 				187EF2BA1828F215004228F0 /* TOP3.jpg in Resources */,
 				1898B39718306C6A00DE3410 /* 钻石 灰色@2x.png in Resources */,
 				1898B39118306C6A00DE3410 /* 休闲益智@2x.png in Resources */,
 				1898B36C18306C6A00DE3410 /* 底@2x.png in Resources */,
+				1877238218459CCC00230465 /* 热门游戏默认@2x.png in Resources */,
 				18661928181FAAD500432CC2 /* TW8.png in Resources */,
 				18661929181FAAD500432CC2 /* TW9.png in Resources */,
 				1898B39D18306C6A00DE3410 /* Number4@2x.png in Resources */,
@@ -727,6 +1190,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D6A0921843476700B38A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pods;
+			targetProxy = 18D6A0911843476700B38A49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		182522B1181F4E7A00C68F33 /* InfoPlist.strings */ = {
@@ -799,7 +1270,11 @@
 		182522C9181F4E7A00C68F33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Linchuan Wang (TVQ942G9J5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sheng Zhou (8F29FUSYL2)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/apple/MyWorkSpace/CosjiGameCenter/CosjiGameCenter,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CosjiGameCenter/CosjiGameCenter-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -809,8 +1284,47 @@
 				);
 				INFOPLIST_FILE = "CosjiGameCenter/CosjiGameCenter-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-liconv",
+					"-lsqlite3",
+					"-lxml2",
+					"-lz",
+					"-framework",
+					AdSupport,
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					CoreText,
+					"-framework",
+					Foundation,
+					"-framework",
+					GoogleOpenSource,
+					"-framework",
+					GooglePlus,
+					"-framework",
+					ImageIO,
+					"-framework",
+					MediaPlayer,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					UIKit,
+					"-weak_framework",
+					AdSupport,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "59324D4D-1541-4F2F-996E-9442C843AD2B";
+				PROVISIONING_PROFILE = "D3594E8B-18E3-44D6-A5EA-7E9875A95FE2";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -819,7 +1333,11 @@
 		182522CA181F4E7A00C68F33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Linchuan Wang (TVQ942G9J5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sheng Zhou (8F29FUSYL2)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/apple/MyWorkSpace/CosjiGameCenter/CosjiGameCenter,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CosjiGameCenter/CosjiGameCenter-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -829,8 +1347,47 @@
 				);
 				INFOPLIST_FILE = "CosjiGameCenter/CosjiGameCenter-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-liconv",
+					"-lsqlite3",
+					"-lxml2",
+					"-lz",
+					"-framework",
+					AdSupport,
+					"-framework",
+					CFNetwork,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					CoreTelephony,
+					"-framework",
+					CoreText,
+					"-framework",
+					Foundation,
+					"-framework",
+					GoogleOpenSource,
+					"-framework",
+					GooglePlus,
+					"-framework",
+					ImageIO,
+					"-framework",
+					MediaPlayer,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+					"-framework",
+					UIKit,
+					"-weak_framework",
+					AdSupport,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "59324D4D-1541-4F2F-996E-9442C843AD2B";
+				PROVISIONING_PROFILE = "D3594E8B-18E3-44D6-A5EA-7E9875A95FE2";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

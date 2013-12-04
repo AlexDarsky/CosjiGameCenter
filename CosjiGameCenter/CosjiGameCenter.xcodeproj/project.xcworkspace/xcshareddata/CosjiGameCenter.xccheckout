@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FA36571A-9DAD-430C-9C8D-93986709B0C0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CosjiGameCenter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>76394D1F-CA55-4E6E-8E25-C4759763A7BD</key>
+		<string>ssh://github.com/AlexDarsky/CosjiGameCenter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CosjiGameCenter/CosjiGameCenter.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>76394D1F-CA55-4E6E-8E25-C4759763A7BD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/AlexDarsky/CosjiGameCenter.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>76394D1F-CA55-4E6E-8E25-C4759763A7BD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>76394D1F-CA55-4E6E-8E25-C4759763A7BD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CosjiGameCenter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
